@@ -1,5 +1,5 @@
 .u-section-1 {
-  background-image: linear-gradient(white, #000216);
+  background-image: none;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -8,12 +8,13 @@
 
 .u-section-1 .u-layout-wrap-1 {
   min-height: 409px;
-  background-image: linear-gradient(white, black);
+  background-image: none;
   margin: 60px auto 0;
 }
 
 .u-section-1 .u-layout-cell-1 {
   min-height: 409px;
+  background-image: none;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -26,6 +27,7 @@
 }
 
 .u-section-1 .u-text-2 {
+  font-size: 1.125rem;
   margin: 20px 0 0;
 }
 
@@ -107,6 +109,8 @@
 
   .u-section-1 .u-image-1 {
     min-height: 366px;
+    background-position: 23% 41.59%;
+    background-size: auto 110%;
   }
 }.u-section-2 {
   background-image: linear-gradient(black, white);
@@ -232,8 +236,13 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 800px;
+  }
+
   .u-section-2 .u-list-1 {
     width: 340px;
+    margin-bottom: 30px;
     grid-template-columns: 100%;
   }
 }.u-section-3 {
