@@ -1,11 +1,11 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 73px;
+  min-height: 176px;
 }
 
 .u-section-1 .u-text-1 {
   font-weight: 900;
   font-style: italic;
-  margin: 11px 20px 0;
+  margin: 60px 20px 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -14,7 +14,7 @@
   text-transform: uppercase;
   font-size: 0.8125rem;
   background-image: none;
-  margin: -47px 44px 15px auto;
+  margin: -47px 44px 64px auto;
   padding: 9px 10px;
 }
 
@@ -26,6 +26,12 @@
 
   .u-section-1 .u-btn-1 {
     margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    margin-bottom: 60px;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 61px;
@@ -49,7 +55,6 @@
 .u-section-3 .u-slider-1 {
   width: 651px;
   min-height: 196px;
-  height: auto;
   margin: 17px auto 40px;
 }
 
@@ -110,6 +115,10 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-3 .u-slider-1 {
+    height: auto;
+  }
+
   .u-section-3 .u-carousel-indicators-1 {
     left: auto;
     right: 138px;
@@ -190,7 +199,6 @@
   grid-template-columns: calc(33.3333% - 10.6667px) calc(33.3333% - 10.6667px) calc(33.3333% - 10.6667px);
   grid-template-rows: auto;
   grid-gap: 16px 16px;
-  height: auto;
 }
 
 .u-section-5 .u-container-layout-1 {
@@ -325,6 +333,7 @@
   .u-section-5 .u-list-1 {
     min-height: 309px;
     grid-template-columns: repeat(3, calc(33.333333333333336% - 10.6667px));
+    height: auto;
   }
 
   .u-section-5 .u-image-1 {
@@ -514,7 +523,6 @@
   grid-gap: 7px 7px;
   grid-template-columns: calc(20% - 5.6px) calc(20% - 5.6px) calc(20% - 5.6px) calc(20% - 5.6px) calc(20% - 5.6px);
   grid-template-rows: auto;
-  height: auto;
   margin: 23px auto 0 0;
 }
 
@@ -626,6 +634,7 @@
   .u-section-7 .u-list-1 {
     min-height: 301px;
     grid-template-columns: repeat(5, calc(20% - 5.6px));
+    height: auto;
     margin-right: initial;
     margin-left: initial;
   }
@@ -798,7 +807,6 @@
   grid-template-columns: 50% 50%;
   grid-template-rows: auto;
   grid-gap: 0px 0px;
-  height: auto;
 }
 
 .u-section-9 .u-container-layout-1 {
@@ -877,6 +885,7 @@
   .u-section-9 .u-list-1 {
     min-height: 445px;
     grid-template-columns: repeat(2, 50%);
+    height: auto;
   }
 
   .u-section-9 .u-image-1 {
